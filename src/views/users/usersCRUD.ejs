@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('../partials/head')  %>
+    <link rel="stylesheet" href="/css/CRUD.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header de header.ejs -->
+        <%- include ('../partials/header')  %>
+
+        <div class="col-12 text-center text-md-left py-4 fonditos">
+            <h1 class="text-center text-dark display-5 mt-5 pt-2 mad">Administrador de Usuarios</h1>
+            <section class="bg-home min-vh-100">
+                <a class="display-5 my-3 agreg btn btn-primary text-white" href="/users/usersCRUD/add">Agregar Usuario</a>
+                <div class="container-fluid bg-white agreg">
+                    <div class="row">
+                        <table class='table mt-4'>
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>eMail</th>
+                                    <th>Tipo</th>
+                                    <th>Ver</th>
+                                    <th>Editar</th>
+                                    <th>Borrar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% usuarios.forEach(usuario => { %>
+                                    <tr>
+                                        <td><%=usuario.id %></td>
+                                        <td><%=usuario.firstName %></td>
+                                        <td><%=usuario.lastName %></td>
+                                        <td><%=usuario.email %></td>
+                                        <td><%=usuario.role.name %></td>
+                                        <td><a href="/users/detail/<%=usuario.id%> ">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </a></td>
+                                        <td><a href="/users/edit/<%=usuario.id%> ">
+                                            <ion-icon name="create-outline"></ion-icon>
+                                        </a></td>
+                                        <td ><a  href="/users/delete/<%=usuario.id%> " class = "eliminarcheck" >
+                                            <ion-icon name="trash-outline"></ion-icon>
+                                        </a></td>
+                                    </tr>
+                                    <% });%>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <%- include ('../partials/footer/') %>
+    <!-- Scripts de scripts.ejs -->
+    <%- include ('../partials/scripts') %>
+    <!-- Fin del Container -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="/js/userDelete.js"></script>
+
+                
+</body>
+
+</html>

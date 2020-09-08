@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "id_categoria": 3,
+    "subcategoria": "Acc-varios",
+    "descripcion": "Accesorios varios"
+  },
+  {
+    "id": 2,
+    "id_categoria": 3,
+    "subcategoria": "Acc-Quad",
+    "descripcion": "Accesorios para Quad Skates"
+  },
+  {
+    "id": 3,
+    "id_categoria": 3,
+    "subcategoria": "Acc-Inline",
+    "descripcion": "Accesorios para Inline Skates"
+  },
+  {
+    "id": 4,
+    "id_categoria": 1,
+    "subcategoria": "Fitness",
+    "descripcion": "Inline Skates - Fitness"
+  },
+  {
+    "id": 5,
+    "id_categoria": 1,
+    "subcategoria": "Freeskate",
+    "descripcion": "Inline Skates - Freeskate"
+  },
+  {
+    "id": 6,
+    "id_categoria": 1,
+    "subcategoria": "Hockey",
+    "descripcion": "Inline Skates - Hockey"
+  },
+  {
+    "id": 7,
+    "id_categoria": 1,
+    "subcategoria": "Offroad",
+    "descripcion": "Inline Skates - Offroad"
+  },
+  {
+    "id": 8,
+    "id_categoria": 1,
+    "subcategoria": "Racing",
+    "descripcion": "Inline Skates - Racing"
+  },
+  {
+    "id": 9,
+    "id_categoria": 2,
+    "subcategoria": "Classic",
+    "descripcion": "Quad Skates - Classic"
+  },
+  {
+    "id": 10,
+    "id_categoria": 2,
+    "subcategoria": "Derby",
+    "descripcion": "Quad Skates - Derby"
+  },
+  {
+    "id": 11,
+    "id_categoria": 2,
+    "subcategoria": "Lifestyle",
+    "descripcion": "Quad Skates - Lifestyle",
+    "imagen": ""
+  }
+]

@@ -1,0 +1,37 @@
+@import "/css/index.css";
+@import "/css/footer.css";
+@import "/css/navBarTop.css";
+@import "/css/categoryShow.css";
+@import "/css/nosotros.css";
+@import "/css/productShow.css";
+@import "/css/carousel.css";
+@import "/css/CRUD.css";
+@import "/css/header.css";
+@import "/css/categoriesCRUD.css";
+@import "/css/userDetail.css";
+@import "/css/edit.css";
+
+
+*{font-family: 'Josefin Sans',sans-serif;}
+
+
+a:hover{
+    color: inherit;
+}
+.paovh20{
+    height:20vh;
+}
+
+/*esa clase genera conflicto y corre el footer.*/
+.paovh80{
+    height:80vh;
+    
+}
+
+.mm-zId-2{
+    z-index: 2;
+}
+
+
+
+

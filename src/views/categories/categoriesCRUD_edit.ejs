@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <%- include ('../partials/head')  %>
+    <link rel="stylesheet" href="/css/CRUD.css">
+</head>
+
+<body>
+    <div class="container">
+        <%- include('../partials/header.ejs')%>
+        <main class="fonditos mb-7 py-3">
+
+        <!-- Cuerpo principal -->
+        <!--<section class="row">
+            <article class="col-12  card pt-5">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Edición de Categorías</h1>
+        
+        
+                </div>
+            </article>
+        </section>-->
+        <div class="col-12 text-center text-md-left py-4"> <!-- acá quité paovh80 y fonditos -->
+            <h1 class="col-12 text-center mad">Edición de Categorías</h1>
+        
+            <section class="bg-home min-vh-100">
+                <div class="container py-4">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mx-md-auto bg-light agreg">
+                            <div class="signup-form">
+                                <form action="/categories/edit/<%=categoriaEdit.id%>?_method=put" id = "formulario" method="POST" enctype="multipart/form-data">
+                                
+                                    <div class="form-row">
+                                        <div class="form-group col-md-2">
+                                            <label for="inputZip">ID</label>
+                                            <input type="text" class="form-control" name="id" value="<%=categoriaEdit.id%>" disabled>
+                                            <span id="errorid"></span>
+                                        </div>
+
+                                         <div class="form-group">
+                                            <label for="inputAddress"> Categoría </label>
+                                            <input type="text" class="form-control" name="name" placeholder="Categoria"
+                                                value="<%=categoriaEdit.name%>">
+                                                <% if(typeof errors != 'undefined' && errors.name){  %>
+                                                <span class="text-danger"> <%=errors.name.msg%> </span>
+                                                <% } %>
+                                                <span id="errorname"></span>
+                                        </div>
+
+                                        <div class="form-group col-12">
+                                            <label for="inputAddress">Descripción</label>
+                                            <input type="text" class="form-control" name="description" placeholder="Descripción"
+                                                value="<%=categoriaEdit.description%>">
+                                            <% if(typeof errors != 'undefined' && errors.description){  %>
+                                            <span class="text-danger"> <%=errors.description.msg%> </span>
+                                            <% } %>
+                                            <span id="errordescripcion"></span>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="form-group">
+                                        <div class="list-group-item ">Imagen: <img class="img-thumbnail" src="/img/web/<%= categoriaEdit.image%>" alt="">
+                                            <input type="hidden" name="image_old" value=<%=categoriaEdit.image%>>
+                                            <input type="file" class="form-control" name="image" placeholder="Imagen" value="<%=categoriaEdit.image%>">
+                                            <span id="errorimagen"></span>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="form-group d-inline">
+                                        <button type="submit" class="btn btn btn-primary">Actualizar</button>
+                                    </div>
+
+                                    <div class="form-group d-inline">
+                                        <a type="button" class="btn btn btn-danger" href="/categories/crud">Volver</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </main>
+    </div>
+    <!-- Footer -->
+    <%- include ('../partials/footer') %>
+    <!-- Scripts para Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <script src="/js/categoryEdit.js"></script>
+    
+</body>
+
+</html>

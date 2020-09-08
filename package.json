@@ -1,0 +1,39 @@
+{
+  "name": "grupo_4_crazypeopleshop",
+  "version": "1.0.0",
+  "description": "Crazy People Shop proyecto integrador",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "nodemon src/app.js -e js,ejs,json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianomartinez/grupo_4_crazypeopleshop.git"
+  },
+  "author": "Grupo 4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianomartinez/grupo_4_crazypeopleshop/issues"
+  },
+  "homepage": "https://github.com/marianomartinez/grupo_4_crazypeopleshop#readme",
+  "dependencies": {
+    "-": "0.0.1",
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.0",
+    "method": "^2.0.0",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "override": "0.0.1",
+    "sequelize": "^6.3.3",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

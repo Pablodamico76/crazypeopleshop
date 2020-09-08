@@ -1,0 +1,114 @@
+.usuari{
+    background-color: black;
+}
+.regist{
+    color:#00c4ff;
+}
+.regist:hover{
+    color: rgb(0, 0, 0);
+}
+#headerlogin:hover{
+    color: rgb(236, 23, 23);
+}
+#headerlogin{
+    color: rgb(0, 0, 0);
+}
+
+
+
+#headercart{
+    color: #2aaa2a;
+}
+
+#headercart:hover{
+    color: rgb(14, 13, 13);
+}
+
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+.avatar img{
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+.avatext{
+    font-size: 9px;
+    
+ 
+}
+#headeravatext:hover{
+    color: rgb(0, 0, 0);
+}
+
+#headerlogout{
+    color: rgb(236, 23, 23)
+}
+
+#headerlogout:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+.avatars{
+    width: 25%;
+    position: absolute;
+    left: 0rem;
+    top: 0px;
+    transform: translateX(-7%);
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+.avatars img {
+    width: 25%;
+    position: absolute;
+    left: 0rem;
+    top: 0px;
+    transform: translateX(-7%);
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+    
+}
+
+.border{
+    border: white;
+    background-color: white;
+    border-color: white;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

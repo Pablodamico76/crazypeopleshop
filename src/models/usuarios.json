@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "firstName": "Mariano",
+    "lastName": "Martínez",
+    "email": "mariano@admin.com",
+    "password": "$2a$10$vm6d4JVjQTwmsDKzgE3T7OjkGErzBEbekSpASsUwYQiAQMOBdO9Ni",
+    "role": true,
+    "image": "usuariovacio1.png",
+    "phone": "1123452345"
+  },
+  {
+    "id": 2,
+    "firstName": "Paola",
+    "lastName": "Garay",
+    "email": "paola@admin.com",
+    "password": "$2a$10$vm6d4JVjQTwmsDKzgE3T7OjkGErzBEbekSpASsUwYQiAQMOBdO9Ni",
+    "role": true,
+    "image": "usuariovacio1.png",
+    "phone": "1123452345"
+  },
+  {
+    "id": 3,
+    "firstName": "Pablo",
+    "lastName": "Damico",
+    "email": "pablo@admin.com",
+    "password": "$2a$10$vm6d4JVjQTwmsDKzgE3T7OjkGErzBEbekSpASsUwYQiAQMOBdO9Ni",
+    "role": "true",
+    "image": "imagen-1596337762662.png",
+    "phone": "1123452345"
+  },
+  {
+    "id": 17,
+    "first_name": "Pablo",
+    "last_name": "DAmico",
+    "email": "pablodamico@hotmail.com",
+    "password": "$2a$10$ntRIoZG/53BslVJ.0nCwTuNqk1wfNZMzIoaw5iWmFpmT4KtKQW0he",
+    "confirm_password": "00000000",
+    "administra": true,
+    "imagen": "imagen-1596233438974.png",
+    "telefono": "1131651749"
+  },
+  {
+    "id": 19,
+    "first_name": "Jorge",
+    "last_name": "Granados",
+    "email": "jorge@jorge.com",
+    "password": "$2a$10$UowbZ.bgHFNgSHFuyQhEueI6qI9Qd110LKq7z4aVR3C1CMnpXVEiK",
+    "role": "true",
+    "imagen": "imagen-1595648270438.png",
+    "telefono": ""
+  },
+  {
+    "id": 20,
+    "first_name": "Marian",
+    "last_name": "Martinez",
+    "email": "marian@dddd.com",
+    "password": "aaaa00000",
+    "administra": true,
+    "imagen": "",
+    "telefono": "111111111"
+  },
+  {
+    "id": 23,
+    "first_name": "pppp",
+    "last_name": "pppppp",
+    "email": "ppp@gmail.com",
+    "password": "$2a$10$yRp5SaofdLdicGYHgq3iKO1ItHqjKla6dmCakkCOwxoBpbHwYTNGi",
+    "administra": true,
+    "imagen": "",
+    "telefono": ""
+  },
+  {
+    "id": 24,
+    "first_name": "Guillermo",
+    "last_name": "Barros",
+    "email": "diego@10.com",
+    "password": "$2a$10$EPVOoYOpjKf/pYfpJQfTKORzRgTNScsKaDc/wGCdXA.zro3lkfOK2",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 25,
+    "first_name": "Seba",
+    "last_name": "Battaglia",
+    "email": "seba@gmail.com",
+    "password": "00000000",
+    "administra": true,
+    "imagen": ""
+  },
+  {
+    "id": 26,
+    "first_name": "Pablo",
+    "last_name": "Jerez",
+    "email": "pablo@gmail.com",
+    "password": "00000000",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 27,
+    "first_name": "Pablo",
+    "last_name": "Gismondi",
+    "email": "pocho@gmail.com",
+    "password": "$2a$10$X/Hwylb74ZspJzvqDXLpa.IXLdwSVW/tTAlwHicYtLBnNkHxosO/S",
+    "administra": true,
+    "imagen": "imagen-1594005149623.jpg"
+  },
+  {
+    "id": 28,
+    "first_name": "Analia",
+    "last_name": "Marta",
+    "email": "analia@hotmail.com",
+    "password": "00000000",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 31,
+    "first_name": "YYY",
+    "last_name": "YYYY",
+    "email": "YY@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 12:40:56 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 32,
+    "first_name": "jorge",
+    "last_name": "rinaldo",
+    "email": "pp@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 13:37:33 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 36,
+    "first_name": "Pirulo",
+    "last_name": "Gomez",
+    "email": "pirulo@hotmail.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 13:52:04 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "imagen-1594227124455.png"
+  },
+  {
+    "id": 37,
+    "first_name": "Pirula",
+    "last_name": "Gomez",
+    "email": "pirula@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 13:53:01 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "imagen-1594227181825.jpg"
+  },
+  {
+    "id": 38,
+    "first_name": "Carlos",
+    "last_name": "Perez",
+    "email": "carlos@gmial.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 13:54:28 GMT-0300 (GMT-03:00)",
+    "administra": true,
+    "imagen": "imagen-1594227268144.jpg"
+  },
+  {
+    "id": 39,
+    "first_name": "Pedro",
+    "last_name": "Troglio",
+    "email": "pedro@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 14:18:38 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "",
+    "telefono": ""
+  },
+  {
+    "id": 40,
+    "first_name": "prueba",
+    "last_name": "mm",
+    "email": "prueba@hotmail.com",
+    "password": "123456789",
+    "fecha_alta": "Wed Jul 08 2020 17:29:51 GMT-0300 (GMT-03:00)",
+    "administra": true,
+    "imagen": "",
+    "telefono": ""
+  },
+  {
+    "id": 41,
+    "first_name": "Ruben",
+    "last_name": "Gomez",
+    "email": "ruben@hotmail.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 19:42:02 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 42,
+    "first_name": "Julio",
+    "last_name": "garci",
+    "email": "ooo@julio.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 19:45:55 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "imagen-1594248355346.JPG"
+  },
+  {
+    "id": 43,
+    "first_name": "Robert",
+    "last_name": "paredes",
+    "email": "rober@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Wed Jul 08 2020 19:48:33 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "imagen-1594248513259.jpg"
+  },
+  {
+    "id": 44,
+    "first_name": "Pedro",
+    "last_name": "Monzon",
+    "email": "pedrito@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Sat Jul 11 2020 14:35:00 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 45,
+    "first_name": "Diego",
+    "last_name": "Maradona",
+    "email": "diego@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Sun Jul 12 2020 16:34:55 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "imagen-1594582495546.JPG"
+  },
+  {
+    "id": 47,
+    "first_name": "Jorge",
+    "last_name": "pppp",
+    "email": "ppppp@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Sat Jul 18 2020 21:13:57 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": ""
+  },
+ 
+  {
+    "id": 49,
+    "first_name": "Roy",
+    "last_name": "Gonzalez",
+    "email": "roy@gmail.com",
+    "password": "00000000",
+    "fecha_alta": "Fri Jul 24 2020 19:02:39 GMT-0300 (GMT-03:00)",
+    "administra": true,
+    "imagen": "imagen-1595628598547.png",
+    "telefono": ""
+  },
+  {
+    "id": 50,
+    "first_name": "HILDA PAOLA",
+    "last_name": "GARAY",
+    "email": "rrr@hotmail.com",
+    "password": "123456789",
+    "fecha_alta": "Fri Jul 24 2020 19:55:17 GMT-0300 (hora estándar de Argentina)",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 52,
+    "first_name": "Mariano",
+    "last_name": "Martinez",
+    "email": "mariano@mail.com",
+    "password": "$2a$10$E.7aNsRMS1xFW3a42L9Rle665bO0TAOxZGjTrAtmOPow2ENg8zL46",
+    "fecha_alta": "Sat Jul 25 2020 11:52:40 GMT-0300 (Argentina Standard Time)",
+    "administra": false,
+    "imagen": "usuariovacio1.png",
+    "telefono": "1123452345"
+  },
+  {
+    "id": 53,
+    "first_name": "Mariano",
+    "last_name": "Martinez",
+    "email": "mariano2@mail.com",
+    "password": "$2a$10$022CSxk8uu3i6YLzNW80g.AO.ZTNfzk/KzFUrX3ch4W0S/RbQEy46",
+    "fecha_alta": "Sat Jul 25 2020 11:55:52 GMT-0300 (Argentina Standard Time)",
+    "administra": false,
+    "imagen": ""
+  },
+  {
+    "id": 54,
+    "first_name": "Mariano",
+    "last_name": "Martinez",
+    "email": "marianoadmin@mail.com",
+    "password": "$2a$10$QMOts/UBNsQnQm2jl6P8/uo/7.r9C8xyMBKIeN98hcvmw0xzee0zS",
+    "fecha_alta": "Sat Jul 25 2020 12:09:26 GMT-0300 (Argentina Standard Time)",
+    "administra": true,
+    "imagen": "usuariovacio1.png",
+    "telefono": "1134983498"
+  },
+  {
+    "id": 58,
+    "first_name": "regafuera",
+    "last_name": "dsfa",
+    "email": "regafuera@mail.com",
+    "password": "$2a$10$WihrQRiBX2lY77muIP/FQ.e.BBEjTMlTAfpKVI9xwHecHzRqY7bGK",
+    "fecha_alta": "Sat Jul 25 2020 12:28:15 GMT-0300 (Argentina Standard Time)",
+    "administra": false,
+    "imagen": "usuariovacio1.png"
+  },
+  {
+    "id": 59,
+    "first_name": "edu",
+    "last_name": "edu",
+    "email": "edu@edu.com",
+    "password": "$2a$10$D76Da.BPy6irVnoTwZFRIuAM/qTlc247i.i.kND230o4u3VrNDjVq",
+    "fecha_alta": "Sat Jul 25 2020 12:43:34 GMT-0300 (Argentina Standard Time)",
+    "administra": false,
+    "imagen": "imagen-1595692074784.jpg",
+    "telefono": ""
+  },
+  {
+    "id": 60,
+    "first_name": "Edu",
+    "last_name": "Virgilio",
+    "email": "edu6@gmail.com",
+    "password": "$2a$10$aR8VIR7GRhyYcj0ln8NTAevCRC1xHmclmZpmQOXjNOM2P21TWg6WS",
+    "fecha_alta": "Sat Jul 25 2020 13:03:53 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "usuariovacio1.png"
+  },
+  {
+    "id": 61,
+    "first_name": "Diego",
+    "last_name": "Latorre",
+    "email": "diego@mail.com",
+    "password": "$2a$10$ktJpYbFIO5O.6cstKkFpzOVFsRve18mM9UkTsS.MZvTXJ/0dkhUEW",
+    "fecha_alta": "Sat Jul 25 2020 13:06:21 GMT-0300 (GMT-03:00)",
+    "administra": false,
+    "imagen": "usuariovacio1.png"
+  },
+  {
+    "id": 62,
+    "first_name": "hola",
+    "last_name": "hola",
+    "email": "hola@hola.com",
+    "password": "$2a$10$bij6V3nOZsVtiFxN1u3Ba.xliYVcTlIXGPPS58POnoWOtYDHgL2gy",
+    "fecha_alta": "Mon Jul 27 2020 13:46:48 GMT-0300 (hora estándar de Argentina)",
+    "administra": false,
+    "imagen": "usuariovacio1.png"
+  },
+  {
+    "id": 63,
+    "first_name": "hola",
+    "last_name": "holas",
+    "email": "holadmin@hola.com",
+    "password": "00000000",
+    "fecha_alta": "Mon Jul 27 2020 13:48:17 GMT-0300 (hora estándar de Argentina)",
+    "administra": true,
+    "imagen": "imagen-1596055134473.jpg",
+    "telefono": ""
+  },
+  {
+    "id": 64,
+    "first_name": "Profesores",
+    "last_name": "DH",
+    "email": "profesoresadmin@dh.com",
+    "password": "$2a$10$/f74w8zcAgJcU6leZ2L.deyceKnpSwyO5mC/GTlNYu8MC/EOEu7my",
+    "fecha_alta": "Thu Jul 30 2020 18:21:57 GMT-0300 (Argentina Standard Time)",
+    "administra": true,
+    "imagen": "imagen-1596144297881.jpg",
+    "telefono": ""
+  }
+]

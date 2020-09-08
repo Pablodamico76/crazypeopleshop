@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <%- include ('../partials/head')  %>
+    <link rel="stylesheet" href="/css/CRUD.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="/js/togglePassword.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <%- include('../partials/header.ejs')%>
+        <main class=" fonditos">
+            <!-- Cuerpo principal -->
+            <!--<section class="row">
+                <article class="col-12 py-0">
+                    <div>
+                        <h1 class="text-center">Ingreso</h1>
+                    </div>
+                </article>
+            </section>-->
+            <div class="col-12 text-center text-md-left py-4">
+                <h1 class="col-12 text-center mad">Iniciar Sesión</h1>
+
+
+                <section class="bg-home">
+                    <div class="container py-4">
+                        <div class="row">
+                            <div class="col-12 col-md-4 mx-md-auto pt-4 bg-light agreg">
+                                <div class="signup-form pb-4">
+                                    <form action="/users/login" method="POST" id = "formulario">
+
+                                        <div class="form-group">
+                                            <% if (typeof errors != 'undefined') { %>
+                                            <ul class="list-group-item text-danger">
+
+                                                <li> Credenciales Inválidas </li>
+                                              
+
+                                            </ul>
+                                            <% } %>
+                                            <label for="exampleInputEmail1">Correo electrónico</label>
+                                            <input type="email" placeholder="Correo Electrónico" class="form-control"
+                                                name="email" value="<%=typeof old == 'undefined' ? null : old.email%>">
+
+
+                                            <small id="emailHelp" class="form-text text-muted">Tus datos no serán nunca
+                                                compartidos con terceros.</small>
+                                                <span id="erroremail"></span>
+                                        </div>
+                                        <label for="exampleInputEmail1">Contraseña</label>
+                                            <div class="input-group">
+                                                
+                                                
+                                                <input type="password" placeholder="Contraseña" class="form-control" name="password"
+                                                value="<%= typeof old == 'undefined' ? null : old.password%>">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text  bg-white" id="togglePassword"><i class="fas fa-eye" > </i></span>
+                                                  </div>
+                                                <span id="errorpassword"></span>
+                                            </div>
+
+                                       
+                                          <div class="form-group form-check">
+                                            <input type="checkbox" class="form-check-input" name="recordame"
+                                                id="exampleCheck1" <%if(usuarioMail != 'vacio'){ %>>
+                                            <% } %>
+                                            <label class="form-check-label" for="exampleCheck1">Recordar mi correo
+                                                electrónico</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                                        <a type="button" class="btn btn-danger" href="/">Cerrar</a>
+
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="/users/register">Nuevo por aquí? Registrate</a>
+                                        <a class="dropdown-item" href="#">¿Olvidaste tu Contraseña?</a>
+
+                                    </form>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+ 
+</body>
+        <!-- Footer -->
+        <%- include ('../partials/footer') %>
+        <%- include ('../partials/scripts') %>
+     
+
+
+        <!-- Scripts para Bootstrap -->
+
+
+</html>

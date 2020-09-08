@@ -1,0 +1,32 @@
+.avatar {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+.avatar img{
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+
+.avatarprofile img{
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 200%;
+    -webkit-border-radius: 200%;
+    border-radius: 200%;
+    
+}
+
+.somb{
+    box-shadow: 5px 5px 15px rgba(57, 149, 202, 0.3);
+    border: 1px solid rgba(57, 149, 202, 0.3);
+}
